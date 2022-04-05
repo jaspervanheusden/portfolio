@@ -1,8 +1,9 @@
 body {
 
   background: rgb(11,88,173);
-  background: linear-gradient(280deg, rgba(11,88,173,1) 0%, rgba(0,212,255,1) 100%);  background-repeat: no-repeat;
-  background-size: contain;
+  background: linear-gradient(280deg, rgba(11,88,173,1) 0%, rgba(0,212,255,1) 100%);
+  background-repeat:repeat-y;
+
 }
 
 .main {
@@ -35,7 +36,13 @@ section {
 
 }
 
-.img {
-  padding-left: 700px;
-  padding-top: 800px;
+.footer {
+  position: fixed;
+    top: 528;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #020024;
+    color: white;
+
 }
