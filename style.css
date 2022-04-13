@@ -6,15 +6,17 @@ body {
 
 }
 
+p {
+  font-size: 60%;
+
+}
+
 .main {
    margin-left: 140px;
    font-size: 200%;
    padding: 0 3%;
 }
-section {
-   height: 400px;
-   background-color: tomato;
-}
+
 .sidebar {
    height: 100%;
    width: 140px;
@@ -36,13 +38,34 @@ section {
 
 }
 
+
+
+
+div.gallery {
+  margin-left: 25%;
+
+  border: 1px solid gray;
+  float: left;
+  width: 240px;
+  height: 240px;
+}
+
+div.gallery:hover {
+  border: 1px solid black;
+}
+
+div.description {
+  padding: 15px;
+  text-align: center;
+}
+
 .footer {
   position: fixed;
-    top: 528;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    background-color: #020024;
-    color: white;
+  top: 528;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #020024;
+  color: white;
 
 }
