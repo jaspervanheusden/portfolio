@@ -1,8 +1,30 @@
 body {
-
+  font-family: monospace;
   background: rgb(11,88,173);
   background: linear-gradient(280deg, rgba(11,88,173,1) 0%, rgba(0,212,255,1) 100%);
   background-repeat:repeat-y;
+
+}
+
+.txtborder {
+  border: 1px solid black;
+  padding: 10px;
+  background: rgb(0,212,255);
+  background: linear-gradient(280deg, rgba(0,212,255,1) 0%, rgba(11,88,173,1) 100%);
+
+}
+
+
+
+.me {
+  margin-left: 50%;
+
+
+}
+
+
+.contact {
+  margin-top: 330px;
 
 }
 
@@ -39,10 +61,8 @@ p {
 }
 
 
-
-
 div.gallery {
-  margin-left: 25%;
+  margin-left: 15%;
 
   border: 1px solid gray;
   float: left;
@@ -56,6 +76,7 @@ div.gallery:hover {
 
 div.description {
   padding: 15px;
+  border: 1px solid black;
   text-align: center;
 }
 
