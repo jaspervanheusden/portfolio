@@ -3,42 +3,28 @@ body {
   background: rgb(11,88,173);
   background: linear-gradient(280deg, rgba(11,88,173,1) 0%, rgba(0,212,255,1) 100%);
   background-repeat:repeat-y;
-
 }
-
 .txtborder {
   border: 1px solid black;
   padding: 10px;
   background: rgb(0,212,255);
   background: linear-gradient(280deg, rgba(0,212,255,1) 0%, rgba(11,88,173,1) 100%);
-
 }
-
-
 
 .me {
   margin-left: 50%;
-
-
 }
-
-
 .contact {
   margin-top: 330px;
-
 }
-
 p {
   font-size: 60%;
-
 }
-
 .main {
    margin-left: 140px;
    font-size: 200%;
    padding: 0 3%;
 }
-
 .sidebar {
    height: 100%;
    width: 140px;
@@ -57,10 +43,7 @@ p {
 }
 .sidebar a:hover {
    color: white;
-
 }
-
-
 div.gallery {
   margin-left: 15%;
 
@@ -69,17 +52,14 @@ div.gallery {
   width: 240px;
   height: 240px;
 }
-
 div.gallery:hover {
   border: 1px solid black;
 }
-
 div.description {
   padding: 15px;
   border: 1px solid black;
   text-align: center;
 }
-
 footer {
   position: fixed;
   top: 528;
@@ -88,5 +68,4 @@ footer {
   width: 100%;
   background-color: #020024;
   color: white;
-
 }
